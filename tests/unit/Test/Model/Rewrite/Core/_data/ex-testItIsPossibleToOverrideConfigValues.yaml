@@ -1,0 +1,78 @@
+store_one:
+  config:
+    web/unsecure/base_url: http://main1.nl/
+    web/unsecure/base_link_url: http://main1.nl/
+    web/unsecure/base_skin_url: http://main1.nl/skin/
+    web/unsecure/base_media_url: http://main1.nl/media/
+    web/unsecure/base_js_url: http://main1.nl/js/
+    web/secure/base_url: http://main1.test.nl/
+    web/secure/base_link_url: http://main1.test.nl/
+    web/secure/base_skin_url: http://main1.test.nl/skin/
+    web/secure/base_media_url: http://main1.test.nl/media/
+    web/secure/base_js_url: http://main1.test.nl/js/
+  unsecure_urls:
+    direct_link: http://main1.nl/
+    link: http://main1.nl/
+    web: http://main1.nl/
+    skin: http://main1.nl/skin/
+    media: http://main1.nl/media/
+    js: http://main1.nl/js/
+  secure_urls:
+    direct_link: http://main1.test.nl/
+    link: http://main1.test.nl/
+    web: http://main1.test.nl/
+    skin: http://main1.test.nl/skin/
+    media: http://main1.test.nl/media/
+    js: http://main1.test.nl/js/
+store_two:
+  config:
+    web/unsecure/base_url: http://main1.be/
+    web/unsecure/base_link_url: http://main1.be/
+    web/unsecure/base_skin_url: http://main1.be/skin/
+    web/unsecure/base_media_url: http://main1.be/media/
+    web/unsecure/base_js_url: http://main1.be/js/
+    web/secure/base_url: http://main1.test.be/
+    web/secure/base_link_url: http://main1.test.be/
+    web/secure/base_skin_url: http://main1.test.be/skin/
+    web/secure/base_media_url: http://main1.test.be/media/
+    web/secure/base_js_url: http://main1.test.be/js/
+  unsecure_urls:
+    direct_link: http://main1.be/
+    link: http://main1.be/nl/
+    web: http://main1.be/
+    skin: http://main1.be/skin/
+    media: http://main1.be/media/
+    js: http://main1.be/js/
+  secure_urls:
+    direct_link: http://main1.test.be/
+    link: http://main1.test.be/nl/
+    web: http://main1.test.be/
+    skin: http://main1.test.be/skin/
+    media: http://main1.test.be/media/
+    js: http://main1.test.be/js/
+store_three:
+  config:
+    web/unsecure/base_url: http://main1.be/
+    web/unsecure/base_link_url: http://main1.be/
+    web/unsecure/base_skin_url: http://main1.be/skin/
+    web/unsecure/base_media_url: http://main1.be/media/
+    web/unsecure/base_js_url: http://main1.be/js/
+    web/secure/base_url: http://main1.test.be/
+    web/secure/base_link_url: http://main1.test.be/
+    web/secure/base_skin_url: http://main1.test.be/skin/
+    web/secure/base_media_url: http://main1.test.be/media/
+    web/secure/base_js_url: http://main1.test.be/js/
+  unsecure_urls:
+    direct_link: http://main1.be/
+    link: http://main1.be/fr/
+    web: http://main1.be/
+    skin: http://main1.be/skin/
+    media: http://main1.be/media/
+    js: http://main1.be/js/
+  secure_urls:
+    direct_link: http://main1.test.be/
+    link: http://main1.test.be/fr/
+    web: http://main1.test.be/
+    skin: http://main1.test.be/skin/
+    media: http://main1.test.be/media/
+    js: http://main1.test.be/js/

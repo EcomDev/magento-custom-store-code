@@ -1,0 +1,80 @@
+store_one_unsecure_url_no_path:
+  host_name: test.nl
+  host_port: 80
+  request_uri: /
+store_one_unsecure_url_with_path:
+  host_name: test.nl
+  host_port: 80
+  request_uri: /some-page/some/page
+store_one_secure_url:
+  host_name: test.nl
+  host_port: 443
+  request_uri: /
+store_one_secure_url_with_path:
+  host_name: test.nl
+  host_port: 443
+  request_uri: /checkout/onepage
+store_two_unsecure_url_no_path:
+  host_name: test.be
+  host_port: 80
+  request_uri: /nl/
+store_two_unsecure_url_with_path:
+  host_name: test.be
+  host_port: 80
+  request_uri: /nl/test-page/test/page
+store_two_unsecure_url_no_path_no_slash:
+  host_name: test.be
+  host_port: 80
+  request_uri: /nl
+store_two_secure_url_no_path:
+  host_name: test.be
+  host_port: 443
+  request_uri: /nl/
+store_two_secure_url_with_path:
+  host_name: test.be
+  host_port: 443
+  request_uri: /nl/checkout/onepage
+store_two_secure_url_no_path_no_slash:
+  host_name: test.be
+  host_port: 443
+  request_uri: /nl
+store_three_unsecure_url_no_path:
+  host_name: test.be
+  host_port: 80
+  request_uri: /fr/
+store_three_unsecure_url_with_path:
+  host_name: test.be
+  host_port: 80
+  request_uri: /fr/test-page/test/page
+store_three_unsecure_url_no_path_no_slash:
+  host_name: test.be
+  host_port: 80
+  request_uri: /fr
+store_three_secure_url_no_path:
+  host_name: test.be
+  host_port: 443
+  request_uri: /fr/
+store_three_secure_url_no_path:
+  host_name: test.be
+  host_port: 443
+  request_uri: /fr/checkout/onepage
+store_three_secure_url_no_path_no_slash:
+  host_name: test.be
+  host_port: 443
+  request_uri: /fr
+store_two_unsecure_url_no_code:
+  host_name: test.be
+  host_port: 80
+  request_uri: /
+store_two_secure_url_no_code:
+  host_name: test.be
+  host_port: 443
+  request_uri: /
+store_two_secure_url_no_code_but_path:
+  host_name: test.be
+  host_port: 443
+  request_uri: /checkout/onepage
+store_two_unsecure_url_no_code_but_path:
+  host_name: test.be
+  host_port: 80
+  request_uri: /test-page/test/page

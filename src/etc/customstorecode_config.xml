@@ -1,0 +1,9 @@
+<config>
+    <global>
+        <cache>
+            <request_processors>
+                <ecomdev_custom_store_code>EcomDev_CustomStoreCode_Model_Cache_Processor</ecomdev_custom_store_code>
+            </request_processors>
+        </cache>
+    </global>
+</config>

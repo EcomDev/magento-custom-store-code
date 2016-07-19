@@ -1,0 +1,15 @@
+store_one:
+  id: 1
+  config:
+    web/unsecure/base_url: http://main1.nl/
+    web/secure/base_url: http://main1.test.nl/
+store_two:
+  id: 2
+  config:
+    web/unsecure/base_url: http://main1.be/
+    web/secure/base_url: http://main1.test.be/
+store_three:
+  id: 3
+  config:
+    web/unsecure/base_url: http://main1.be/
+    web/secure/base_url: http://main1.test.be/

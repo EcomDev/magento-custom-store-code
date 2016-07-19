@@ -1,0 +1,62 @@
+store_one_unsecure_url_no_path:
+  path_info: /
+  store_code: default
+store_one_unsecure_url_with_path:
+  path_info: /some-page/some/page
+  store_code: default
+store_one_secure_url:
+  path_info: /
+  store_code: default
+store_one_secure_url_with_path:
+  path_info: /checkout/onepage
+  store_code: default
+store_two_unsecure_url_no_path:
+  path_info: /
+  store_code: nl_be
+store_two_unsecure_url_with_path:
+  path_info: /test-page/test/page
+  store_code: nl_be
+store_two_unsecure_url_no_path_no_slash:
+  path_info: /
+  store_code: nl_be
+store_two_secure_url_no_path:
+  path_info: /
+  store_code: nl_be
+store_two_secure_url_with_path:
+  path_info: /checkout/onepage
+  store_code: nl_be
+store_two_secure_url_no_path_no_slash:
+  path_info: /
+  store_code: nl_be
+store_three_unsecure_url_no_path:
+  path_info: /
+  store_code: fr_be
+store_three_unsecure_url_with_path:
+  path_info: /test-page/test/page
+  store_code: fr_be
+store_three_unsecure_url_no_path_no_slash:
+  path_info: /
+  store_code: fr_be
+store_three_secure_url_no_path:
+  path_info: /
+  store_code: fr_be
+store_three_secure_url_no_path:
+  path_info: /checkout/onepage
+  store_code: fr_be
+store_three_secure_url_no_path_no_slash:
+  path_info: /
+  store_code: fr_be
+store_two_unsecure_url_no_code:
+  path_info: /
+  store_code: nl_be
+store_two_secure_url_no_code:
+  path_info: /
+  store_code: nl_be  
+store_two_secure_url_no_code_but_path:
+  path_info: /checkout/onepage
+  store_code: nl_be
+  action_code: noRoute
+store_two_unsecure_url_no_code_but_path:
+  path_info: /test-page/test/page
+  store_code: nl_be
+  action_code: noRoute

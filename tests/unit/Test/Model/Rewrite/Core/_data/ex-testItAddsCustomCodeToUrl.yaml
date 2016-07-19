@@ -1,0 +1,6 @@
+store_one:
+  url: http://test.nl/
+store_two:
+  url: http://test.be/nl/
+store_three:
+  url: http://test.be/fr/

@@ -1,0 +1,36 @@
+scope:
+  website:
+    - website_id: 2
+      code: test
+      name: Test BE Website
+      sort_order: 1
+      default_group_id: 2
+  group:
+    - group_id: 2
+      website_id: 2
+      name: Test Main BE Store
+      root_category_id: 2
+      default_store_id: 2
+  store:
+    - store_id: 2
+      website_id: 2
+      group_id: 2
+      code: nl_be
+      name: Dutch
+      sort_order: 2
+      is_active: 1
+    - store_id: 3
+      website_id: 2
+      group_id: 2
+      code: fr_be
+      name: French
+      sort_order: 2
+      is_active: 1
+config:
+  websites/belgium/web/url/use_code: 1
+  websites/belgium/web/unsecure/base_url: http://test.be/
+  websites/base/web/unsecure/base_url: http://test.nl/
+  websites/belgium/web/secure/base_url: https://test.be/
+  websites/base/web/secure/base_url: https://test.nl/
+  stores/nl_be/web/url/code: nl
+  stores/fr_be/web/url/code: fr

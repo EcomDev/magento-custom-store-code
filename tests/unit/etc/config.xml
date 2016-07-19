@@ -1,0 +1,9 @@
+<config>
+    <phpunit>
+        <suite>
+            <modules>
+                <EcomDev_CustomStoreCodeTest />
+            </modules>
+        </suite>
+    </phpunit>
+</config>
