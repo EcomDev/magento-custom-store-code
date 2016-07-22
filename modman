@@ -1,4 +1,5 @@
 src/module                                  app/code/community/EcomDev/CustomStoreCode
 tests                                       app/code/community/EcomDev/CustomStoreCodeTest
-src/etc/EcomDev_CustomerStoreCode.xml       app/etc/modules/EcomDev_CustomerStoreCode.xml
-src/etc/
+src/etc/EcomDev_CustomStoreCode.xml         app/etc/modules/EcomDev_CustomStoreCode.xml
+src/etc/customstorecode_config.xml          app/etc/customstorecode_config.xml
+
