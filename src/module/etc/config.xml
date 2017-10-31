@@ -20,6 +20,7 @@
             <core>
                 <rewrite>
                     <store>EcomDev_CustomStoreCode_Model_Rewrite_Core_Store</store>
+                    <url_rewrite_request>EcomDev_CustomStoreCode_Model_Rewrite_Core_Url_Rewrite_Request</url_rewrite_request>
                 </rewrite>
             </core>
         </models>
